@@ -1,0 +1,93 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #212922;
+    background-color: #AEF6C7;
+}
+
+h1 {
+    text-align: center;
+}
+
+#startGameBttn {
+    background-color: #294936;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1.3vw;
+    height: 4vw;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vw;
+    margin-right: 3vw;
+}
+
+#inputParaula {
+    border-radius: 1vw;
+    padding: 1.3vw;
+    padding-top: -2vw;
+}
+
+#startGameLbl {
+    font-size: 3em;
+    color: white;
+    padding: 1.2vw;
+}
+
+#startGameDiv {
+    background-color: #294936;
+    border-radius: 2vw;
+}
+
+#divBttns {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2vw;
+}
+
+.bttnLetters {
+    background-color: #5B8266;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    height: 4vw;
+    width: 4vw;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    border: 2px solid red;
+    color: red;
+}
+
+#imageStatusDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vw;
+    width: 97%;
+}
+
+#gameStatus,
+#gameStatus2 {
+    background-color: #294936;
+    color: white;
+    border-radius: 10px;
+    padding: 1vw;
+    width: 20vw;
+    font-size: 1.2em;
+    margin-right: 3vw;
+}
+
+#gameStatus2 {
+    margin-left: 3vw;
+}
+
+#imageStatus {
+    width: 25vw;
+    margin: 0 auto;
+}

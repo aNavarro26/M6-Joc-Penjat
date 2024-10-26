@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Joc Penjat</title>
+</head>
+
+<body>
+    <h1>Joc Penjat</h1>
+
+    <header>
+        <form>
+            <input id="inputParaula" type="password" placeholder="Introdueix una paraula">
+            <i onclick="mostrarParaula()" class="fas fa-eye" id="togglePassword"></i>
+
+            <button id="startGameBttn" onclick="startGame()">Començar Partida</button>
+        </form>
+
+    </header>
+
+    <div id="startGameDiv">
+        <h1 id="startGameLbl">Començar Partida</h1>
+    </div>
+
+    <div id="imageStatusDiv">
+        <div id="gameStatus">
+            <p>Jugador 1</p>
+            <p>PUNTS PARTIDA ACTUALS</p>
+            <p id="puntsActuals">0</p>
+            <p>TOTAL PARTIDES</p>
+            <p id="totalPartides">0</p>
+            <p>PARTIDES GUANYADES</p>
+            <p id="partidesGuanyades">0</p>
+            <p>PARTIDA AMB MÉS PUNTS</p>
+            <p id="partidaMesPunts">0</p>
+        </div>
+        <img id="imageStatus" src="src/penjat_0.jpg" alt="Image status">
+        <div id="gameStatus2">
+            <p>Jugador 2</p>
+            <p>PUNTS PARTIDA ACTUALS</p>
+            <p id="puntsActuals2">0</p>
+            <p>TOTAL PARTIDES</p>
+            <p id="totalPartides2">0</p>
+            <p>PARTIDES GUANYADES</p>
+            <p id="partidesGuanyades2">0</p>
+            <p>PARTIDA AMB MÉS PUNTS</p>
+            <p id="partidaMesPunts2">0</p>
+        </div>
+    </div>
+
+    <div id="divBttns">
+        <button id="bttn1" class="bttnLetters" onclick="useChar(this)" disabled>A</button>
+        <button id="bttn2" class="bttnLetters" onclick="useChar(this)" disabled>B</button>
+        <button id="bttn3" class="bttnLetters" onclick="useChar(this)" disabled>C</button>
+        <button id="bttn4" class="bttnLetters" onclick="useChar(this)" disabled>D</button>
+        <button id="bttn5" class="bttnLetters" onclick="useChar(this)" disabled>E</button>
+        <button id="bttn6" class="bttnLetters" onclick="useChar(this)" disabled>F</button>
+        <button id="bttn7" class="bttnLetters" onclick="useChar(this)" disabled>G</button>
+        <button id="bttn8" class="bttnLetters" onclick="useChar(this)" disabled>H</button>
+        <button id="bttn9" class="bttnLetters" onclick="useChar(this)" disabled>I</button>
+        <button id="bttn10" class="bttnLetters" onclick="useChar(this)" disabled>J</button>
+        <button id="bttn11" class="bttnLetters" onclick="useChar(this)" disabled>K</button>
+        <button id="bttn12" class="bttnLetters" onclick="useChar(this)" disabled>L</button>
+        <button id="bttn13" class="bttnLetters" onclick="useChar(this)" disabled>M</button>
+        <button id="bttn14" class="bttnLetters" onclick="useChar(this)" disabled>N</button>
+        <button id="bttn15" class="bttnLetters" onclick="useChar(this)" disabled>O</button>
+        <button id="bttn16" class="bttnLetters" onclick="useChar(this)" disabled>P</button>
+        <button id="bttn17" class="bttnLetters" onclick="useChar(this)" disabled>Q</button>
+        <button id="bttn18" class="bttnLetters" onclick="useChar(this)" disabled>R</button>
+        <button id="bttn19" class="bttnLetters" onclick="useChar(this)" disabled>S</button>
+        <button id="bttn20" class="bttnLetters" onclick="useChar(this)" disabled>T</button>
+        <button id="bttn21" class="bttnLetters" onclick="useChar(this)" disabled>U</button>
+        <button id="bttn22" class="bttnLetters" onclick="useChar(this)" disabled>V</button>
+        <button id="bttn23" class="bttnLetters" onclick="useChar(this)" disabled>W</button>
+        <button id="bttn24" class="bttnLetters" onclick="useChar(this)" disabled>X</button>
+        <button id="bttn25" class="bttnLetters" onclick="useChar(this)" disabled>Y</button>
+        <button id="bttn26" class="bttnLetters" onclick="useChar(this)" disabled>Z</button>
+
+    </div>
+
+    <script src="script/penjat.js"></script>
+</body>
+
+</html>
