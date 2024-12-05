@@ -1,0 +1,20 @@
+{
+  "tematiques": [
+    {
+      "id": 1,
+      "nom": "esports",
+      "paraules": ["futbol", "basquet", "tennis", "natacio", "ciclisme"]
+    },
+    {
+      "id": 2,
+      "nom": "informatica",
+      "paraules": [
+        "programacio",
+        "maquinari",
+        "xarxes",
+        "javascriptEsElMillor",
+        "ciberseguretat"
+      ]
+    }
+  ]
+}
