@@ -49,19 +49,30 @@ header {
 }
 
 .bttnLetters {
-    background-color: #5B8266;
-    color: white;
     font-weight: bolder;
     font-size: 1em;
     height: 4vw;
     width: 4vw;
     text-align: center;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 2vw;
+}
+
+.bttnLetters.enabled {
+    /* pseudoclase */
+    border: 2px solid black;
+    color: black;
+    background-color: #5B8266;
+    cursor: pointer;
+}
+
+.bttnLetters.disabled {
+    /* pseudoclase */
     border: 2px solid red;
-    color: red;
+    color: gray;
+    background-color: #D3D3D3;
+    cursor: not-allowed;
 }
 
 #imageStatusDiv {
