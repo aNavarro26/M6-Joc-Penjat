@@ -22,6 +22,7 @@ let haGuanyat = false;
 let hoEs = false;
 let aparicions = 0;
 let paraulaSecretaFetch = '';
+let gameTimer;
 
 const Puntuacio = {
     totalPartides: 0,
@@ -105,6 +106,15 @@ function startGame() {
 
     encertsConsecutius = 0;
     jugades = 0;
+
+    if (gameTimer) {
+        clearTimeout(gameTimer);
+    }
+
+    gameTimer = setTimeout(() => {
+        disableButtons();
+        console.log("Temps finalitzat");
+    }, 60000);
 }
 
 
